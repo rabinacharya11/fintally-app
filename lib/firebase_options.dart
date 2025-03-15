@@ -41,50 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBcDebFdu8vSZF7gvBO-ErC-0Elchf8Uow',
-    appId: '1:1045149251295:web:06f10de7275a760291db6a',
-    messagingSenderId: '1045149251295',
-    projectId: 'customerinterviewapp',
-    authDomain: 'customerinterviewapp.firebaseapp.com',
-    storageBucket: 'customerinterviewapp.firebasestorage.app',
-    measurementId: 'G-R5MJ3KYLPN',
+    apiKey: 'AIzaSyBVVeUuZEmZ0bPrqqCYeongF2Ee4g2LReI',
+    appId: '1:465931274801:web:04ad3f5e25e0c7206f6310',
+    messagingSenderId: '465931274801',
+    projectId: 'fintally',
+    authDomain: 'fintally.firebaseapp.com',
+    storageBucket: 'fintally.firebasestorage.app',
+    measurementId: 'G-3L8E3PCDSQ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAMcPI2NbvzLLYbdo7DZIsPYsMLnBpDMyY',
-    appId: '1:1045149251295:android:3523516cee95b68591db6a',
-    messagingSenderId: '1045149251295',
-    projectId: 'customerinterviewapp',
-    storageBucket: 'customerinterviewapp.firebasestorage.app',
+    apiKey: 'AIzaSyDjYcHicj35gSn3mPJJkTB9h4-Alny_XYI',
+    appId: '1:465931274801:android:d7e28e0c6e7ebae66f6310',
+    messagingSenderId: '465931274801',
+    projectId: 'fintally',
+    storageBucket: 'fintally.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAFirIvVT1ppbqZZL7krxvXQdi1glhOgP4',
-    appId: '1:1045149251295:ios:d7dcaeb17d3b2ded91db6a',
-    messagingSenderId: '1045149251295',
-    projectId: 'customerinterviewapp',
-    storageBucket: 'customerinterviewapp.firebasestorage.app',
-    iosClientId: '1045149251295-fj0hf6s5cisk4b8ievqtk8vc3lohc1la.apps.googleusercontent.com',
-    iosBundleId: 'com.example.baseFlutterTemplate',
+    apiKey: 'AIzaSyDAwFL-wjjSORM6U97qSL9s1Mj6Ca_8-Ss',
+    appId: '1:465931274801:ios:334b0125245730126f6310',
+    messagingSenderId: '465931274801',
+    projectId: 'fintally',
+    storageBucket: 'fintally.firebasestorage.app',
+    iosBundleId: 'com.codegriha.fintally',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAFirIvVT1ppbqZZL7krxvXQdi1glhOgP4',
-    appId: '1:1045149251295:ios:d7dcaeb17d3b2ded91db6a',
-    messagingSenderId: '1045149251295',
-    projectId: 'customerinterviewapp',
-    storageBucket: 'customerinterviewapp.firebasestorage.app',
-    iosClientId: '1045149251295-fj0hf6s5cisk4b8ievqtk8vc3lohc1la.apps.googleusercontent.com',
-    iosBundleId: 'com.example.baseFlutterTemplate',
+    apiKey: 'AIzaSyDAwFL-wjjSORM6U97qSL9s1Mj6Ca_8-Ss',
+    appId: '1:465931274801:ios:3a0c2e41d869850d6f6310',
+    messagingSenderId: '465931274801',
+    projectId: 'fintally',
+    storageBucket: 'fintally.firebasestorage.app',
+    iosBundleId: 'com.codegriha.fintally',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBcDebFdu8vSZF7gvBO-ErC-0Elchf8Uow',
-    appId: '1:1045149251295:web:74e58cf0db3a80f091db6a',
-    messagingSenderId: '1045149251295',
-    projectId: 'customerinterviewapp',
-    authDomain: 'customerinterviewapp.firebaseapp.com',
-    storageBucket: 'customerinterviewapp.firebasestorage.app',
-    measurementId: 'G-X7VBCVJKE8',
+    apiKey: 'AIzaSyBVVeUuZEmZ0bPrqqCYeongF2Ee4g2LReI',
+    appId: '1:465931274801:web:c0b83522dbf3243c6f6310',
+    messagingSenderId: '465931274801',
+    projectId: 'fintally',
+    authDomain: 'fintally.firebaseapp.com',
+    storageBucket: 'fintally.firebasestorage.app',
+    measurementId: 'G-YHMGNRKEG8',
   );
+
 }

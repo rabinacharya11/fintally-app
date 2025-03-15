@@ -1,4 +1,5 @@
-package com.example.base_flutter_template
+package com.codegriha.fintally
+
 
 import io.flutter.embedding.android.FlutterActivity
 

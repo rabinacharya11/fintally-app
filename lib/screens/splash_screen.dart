@@ -1,5 +1,7 @@
 import 'package:base_flutter_template/di/service_locator.dart';
+import 'package:base_flutter_template/screens/web/web_entry.dart';
 import 'package:base_flutter_template/services/crashlytics/crashlytics_service.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import '../firebase_options.dart';
@@ -7,8 +9,7 @@ import '../firebase_options.dart';
 class SplashScreen extends StatefulWidget {
   final Widget Function(BuildContext) onInitializationComplete;
 
-  const SplashScreen({Key? key, required this.onInitializationComplete})
-    : super(key: key);
+  const SplashScreen({super.key, required this.onInitializationComplete});
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
@@ -60,6 +61,9 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     if (_initialized) {
       return widget.onInitializationComplete(context);
+    }
+    if(kIsWeb) {
+      return const WebEntry();
     }
 
     // Your splash screen UI

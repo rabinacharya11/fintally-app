@@ -1,12 +1,17 @@
+import 'dart:io';
+
+import 'package:base_flutter_template/config/firebase_options.dart';
 import 'package:base_flutter_template/screens/splash_screen.dart';
 import 'package:base_flutter_template/di/service_locator.dart';
 import 'package:base_flutter_template/services/analytics/analytics_service.dart';
-import 'package:base_flutter_template/services/auth/auth_service.dart';
-import 'package:base_flutter_template/services/crashlytics/crashlytics_service.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // Remove Firebase initialization from here as it's already initialized in SplashScreen
+
   runApp(const MyApp());
 }
 
